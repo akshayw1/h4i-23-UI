@@ -7,6 +7,11 @@ body {
   background: rgb(69, 23, 23);
 }
 
+.menu a:hover{
+  color: #e5193d;
+
+}
+
 .container {
   width: 80%;
   height: 110vh;
@@ -26,7 +31,7 @@ body {
   color: #fff;
   text-align: center;
   font-family: Gudea;
-  font-size: 28px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -56,17 +61,18 @@ nav {
 }
 .active {
   border-bottom: 1px solid rgb(255, 255, 255);
+  color: #e5193d;
 }
 
 h2 {
   font-family: poppins;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 500;
   margin-left: 3rem;
   border-bottom: 2px solid #e5193d;
   border-width: 0.2rem;
   overflow: hidden;
-  width: 50%;
+  width: 35%;
   color: white;
 }
 .title {
@@ -76,7 +82,7 @@ h2 {
 p {
   color: white;
   font-family: "Gudea", sans-serif;
-  font-size: 34px;
+  font-size: 30px;
   margin-left: 3rem;
   width: 50%;
   font-weight: 300;
@@ -177,4 +183,9 @@ height: 150px;
   font-size: 1.6rem;
   font-weight: 600;
 }
+
+
+
+a { color: inherit;
+  text-decoration: none;} 
 
