@@ -12,27 +12,37 @@
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <div class="container">
         <nav>
+            <div class="logo">
+                <img src="images/logo.png" />
+            </div>
             <ul class="menu">
-                <div class="logo">
-                    <img src="images/logo.png" />
-                </div>
-                <li ><a href="index.html">About </a></li>
-                <li>Speakers</li>
-                <li class="active"><a href="prizes.html">Prizes</a></li>
-                <li>Schedule</li>
-                <li>Sponsors</li>
-                <li>Faq</li>
-                <li>Contact</li>
+                
+                <li>
+                    <a href="#.html" class="active">About</a>
+                    <a href="#.html  ">Speakers</a>
+                    <a href="#.html">Prizes</a>
+                    <a href="#.html">Shedule</a>
+                    <a href="#.html">Sponsors</a>
+                    <a href="#.html">Faq</a>
+                    <a href="#.html">Contact</a>
+                </li>
             </ul>
+            <button id="open-btn"> <i class="fa-solid fa-bars"></i></button>
+            <button id="close-btn"> <i class="fa-solid fa-xmark"></i></i></button>
         </nav>
-
         <section class="page1">
-            <h2 class="titleprizes ">Speakers</h2>
+            <div class="prizediv">
+
+           
+            <h2 class="titleprizes">Speakers</h2>
 
             <div class="speakers-sec">
                 <article class="speaker-card">
@@ -56,7 +66,7 @@
                         <span class="speaker-des"> Lorem, ipsum. </span>
                     </div>
                 </article>
-                <article class="speaker-card">
+                <article class="speaker-card" id="hide">
                     
                     <div class="speaker-info">
                         <span class="speaker-name">Name </span>
@@ -64,7 +74,7 @@
                     </div>
                     <div class="speaker-img"></div>
                 </article>
-                <article class="speaker-card">
+                <article class="speaker-card" id="hide">
                     <div class="speaker-info">
                         <span class="speaker-name">Name </span>
                         <span class="speaker-des"> Lorem, ipsum. </span>
@@ -72,7 +82,7 @@
                     <div class="speaker-img"></div>
 
                 </article>
-                <article class="speaker-card">
+                <article class="speaker-card" id="hide">
                     <div class="speaker-info">
                         <span class="speaker-name">Name </span>
                         <span class="speaker-des"> Lorem, ipsum. </span>
@@ -81,6 +91,7 @@
 
                 </article>
             </div>
+        </div>
         </section>
 
         <footer>
@@ -94,7 +105,7 @@
         </footer>
     </div>
 
-    <script src="" async defer></script>
+    <script src="main.js" async defer></script>
 </body>
 
 </html>
