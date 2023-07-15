@@ -75,16 +75,18 @@ nav {
 
 h2 {
   font-family: poppins;
+  width: fit-content;
   font-weight: 500;
   margin-left: 3rem;
   border-width: 0.2rem;
   overflow: hidden;
   color: white;
 }
-.title {
-  width: ;
-}
+.titlehead{
+  font-size: 2.5rem;
+  border-bottom: 2.5px solid #e5193d; 
 
+}
 p {
   color: white;
   font-family: "Gudea", sans-serif;
@@ -270,6 +272,10 @@ a { color: inherit;
       font-size: 1.5rem;
       font-weight: 600;
       margin-left: 1rem;
+    }
+    .titlehead{
+      font-size: 1.5rem;
+      margin-left: 0;
     }
 
     .page1 p{
