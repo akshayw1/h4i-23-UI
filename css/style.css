@@ -4,7 +4,7 @@ body {
   margin: 0;
   box-sizing: border-box;
   padding: 0;
-  background: rgb(69, 23, 23);
+  background: #e5193d;
 }
 
 .menu a:hover{
@@ -48,6 +48,7 @@ li{
 
 .logo {
   display: flex;
+  padding: 10px;
   width: 65.605px;
 height: 88.658px;
 }
@@ -74,13 +75,10 @@ nav {
 
 h2 {
   font-family: poppins;
-  font-size: 3rem;
   font-weight: 500;
   margin-left: 3rem;
-  border-bottom: 2px solid #e5193d;
   border-width: 0.2rem;
   overflow: hidden;
-  width: 35%;
   color: white;
 }
 .title {
@@ -159,9 +157,15 @@ button {
 }
 
 .titleprizes{
-  font-size: 20px;
-  width: 7%;
+  font-size: 35px;
+  font-family: Gudea;
+  font-weight:700;
+  text-overflow: clip;
+  width: fit-content;
+  border-bottom: 2px solid #e5193d;
 }
+
+
 
 .speaker-img{
   background: #D9D9D9;
@@ -173,6 +177,8 @@ height: 150px;
   display: grid;
   grid-template-columns: repeat(3,1fr);
   width: 80%;
+  margin-left: 3rem;
+  margin-bottom: 2rem;
 }
 .speaker-info{
   color: white;
@@ -238,6 +244,7 @@ a { color: inherit;
     }
     .menu .logo{
       display: block;
+    
     }
 
     .container{
@@ -287,9 +294,7 @@ a { color: inherit;
       flex-direction: column;
     }
 
-    .titleprizes{
-      width: 100%;
-    }
+    
     .social-logos{
       padding: 0rem;
     }
@@ -335,7 +340,7 @@ a { color: inherit;
 
     }
     .titleprizes{
-      width: 35%;
+      width:fit-content;
       margin: 0;
     }
     .speakers-sec{
@@ -370,7 +375,7 @@ a { color: inherit;
     
 
     .social-logos{
-      display: none;
+      display:  ;
     }
     
    
