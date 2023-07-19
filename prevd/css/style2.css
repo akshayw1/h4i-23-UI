@@ -90,19 +90,18 @@ h2 {
  
 }
 
-.page1 p {
-  display: inline-block;
+p {
   color: white;
   font-family: "Gudea", sans-serif;
   font-size: 30px;
   margin-left: 3rem;
-  width: 60%;
+  width: 70%;
   font-weight: 300;
   color: white;
-  height: 20%;
-  margin-top: 1.5%;
+  height: 50%;
+  margin-top: 5%;
   margin-left: 8%;
- 
+
 }
 
 .bold {
@@ -112,8 +111,7 @@ h2 {
 .colored-text {
   
   color:white;
-  width: 100%;
-  display: inline-block;
+  
 }
 
 .btn {
@@ -171,12 +169,11 @@ button {
   }
 .socials{
     width: 50%;
-    margin-left: 2.5rem;
 }
 
 .footer-icon {
-  width: 40px;
-  height: 4vh;
+  width: 48px;
+  height: 5vh;
   padding-left: 1.5rem;
 }
 
@@ -200,7 +197,7 @@ button {
 .hackout{
     color: #e5193d;
     font-family: "Gudea", sans-serif;
-  font-size: 42px;
+  font-size: 46px;
   font-weight: 700;
   margin-left: 20%;
   margin-top: 4rem;
@@ -225,8 +222,6 @@ font-weight: 700;
 letter-spacing: 0.05em;
 margin-top: 6rem;
 margin-left: 10rem;
-padding: 1rem;
-background: #e5193d;
 }
 .copy{
     color: white;
@@ -234,25 +229,13 @@ background: #e5193d;
 font-size: 25px;
 font-weight: 700;
 letter-spacing: 0.05em;
-padding: 1rem;
-background: #e5193d;
+
 }
 .ss{
     color: white;
     font-weight: 500;
     font-size: 40px;
-    
-    background: #e5193d;
-}
-.ss {
-  padding-bottom: .75rem;
-  color: white;
-  font-weight: 500;
-  font-size: 40px;
-  background: #e5193d;
-  padding-top: .1rem;
-  margin-left: 3rem;
-  padding-left: 1rem;
+    padding-left: 6rem;
 }
 
 
@@ -261,7 +244,6 @@ background: #e5193d;
 .titleprizes{
   font-size: 20px;
   width: 7%;
-  letter-spacing: 0.05em;
 }
 
 .speaker-img{
@@ -297,21 +279,16 @@ nav button{
   display: none;
 }
 .hack{
-  margin-top: -3rem;
+  margin-top: 3.5rem;
 }
 
-.page1 .colored-text{
-  color: white;
-}
-.socials .footer-icon{
-  width: 32px;
-}
+
 
 a { color: inherit;
   text-decoration: none;} 
 
 
-  @media screen and (min-width: 381px) and (max-width: 600px) {
+  @media screen and (max-width: 600px) {
     .menu {
       display: flex;
       flex-direction: column;
@@ -517,12 +494,12 @@ a { color: inherit;
         margin-left: 1rem;
     }
     .info{
-        width: 96%;
+        width: 66%;
         margin-left: 0rem;
         padding-left: 0rem;
         padding-left: 1.5rem;
         
-                line-height: 5rem;
+                line-height: 3rem;
         
     }
     .coc{
@@ -553,7 +530,6 @@ a { color: inherit;
     .colored-text{
         line-height: 2rem;
         font-size: 26px;
-        margin-top: 0rem;
     }
     .social-logos{
 
@@ -561,21 +537,38 @@ a { color: inherit;
     body{
         overflow-x: hidden;
     }
-    .hack{
-      margin-top: 2rem;
-    }
-    .ss {
-      padding-left: 1rem;
-      font-size: 40px;
-      font-weight: 700;
-      padding: 0rem;
-      padding-bottom: .77rem;
-      margin-left: 0rem;
-      padding-left: 1rem;
-  }
   }
     
- 
+  @media screen and (max-width: 380px){
+    .hack{
+        margin-top: -9rem;
+    }
+    .info{
+        line-height: 2.4rem;
+        font-size: 20px;
+    }
+    .socials{
+        margin-top: -2rem;
+    }
+   .coc{ font-size: 20px;
+    margin-left: 0rem;
+    font-weight: 700;
+}
+.ss{
+    padding-left: 0rem;
+    font-size: 20px;
+    font-weight: 700;
+}
+.copy{
+    font-size: 20px;
+    font-weight: 700;
+}
+.social-logos{
+    margin-right: 2rem;
+}
+
+  }
+
 ::-webkit-scrollbar{
     height: .5rem;
     width: .4rem;
@@ -846,297 +839,6 @@ a { color: inherit;
       overflow-x: hidden;
   }
   .hack{
-    margin-top: 3rem;
+    margin-top: -18rem;
   }
-  .page1 .titleprizes{
-    font-size: 3.5rem;
-  }
-  .hack .hackout{
-    font-size: 3rem;
-  }
-  .socials .footer-icon{
-    width: 100%;
-    padding-left: 1rem;
-    padding-right: 2rem;
-    margin-right: 1rem;
-height: 5vh;  }
-
-
-
-
-
-.info .ss{
-  font-size: 47.1px;
-}
-.container .page1{
-  height: 75vh;
-}
-}
-
-
-
-
-@media screen and (min-width: 100px) and (max-width: 380px){
-  .menu {
-    display: flex;
-    flex-direction: column;
-
-  }
-  .menu a:hover{
-    color: #232731;
-  
-  }
-  .hack{
-      
-      margin-top: -14rem;
-  }
-  .menu li {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    background: #e5193d;
-    margin-top: 30rem;
-    right: 2rem;
-    width: 50%;
-    box-shadow: -4rem 6rem 10rem rgba(0, 0, 0, 0.9) ;
-    padding-bottom: 1rem;
-    border-radius: 10px;
-    
-  }
-  .menu li a{
-    box-shadow: -4rem 6rem 10rem rgba(0, 0, 0, 0.6) ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  a:hover{
-    color:#232731;
-  }
-  .menu .logo{
-    display: block;
-  }
-
-  .container{
-    width: 50%;
-    height: 110vh;
-    background-color: #232731;
-    justify-content: center;
-    font-family: "Gudea", sans-serif;
-    
-  }
-  .social-logos2 {
-      display: flex;
-      justify-content: left;
-      list-style: none;
-      gap: 1rem;
-      align-items: center;
-      padding: 1rem;
-      margin-left: 1rem;
-      width: 30%;
-      margin-top: 3rem;
-    }
-
-  .page1{
-    height: 80vh;
-  }
-  .hackout{
-      font-size: 30px;
-      
-  }
-  
-  .pagep{
-    height: 80vh;
-
-  }
-
-  .title{
-    width:90% ;
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-left: 1rem;
-  }
-
-  .page1 p{
-    font-size: 20px;
-    width: 80%;
-    padding-top: 3rem;
-    margin-left: 1rem;
-    margin-bottom: -4rem;
-
-  }
-
-  .btn{
-    font-size: 1rem;
-    height: 25px;
-    margin-left: 1rem;
-    align-items: center;
-
-  }
-
-  .actions{
-    display: flex;
-    flex-direction: column;
-  }
-
-  .titleprizes{
-    width: 100%;
-  }
-  .social-logos{
-    padding: 0rem;
-  }
-  .icon {
-    width: 25px;
-    height: 25px;
-    padding: 10px;
-  }
-
-  .icon img{
-    height: 100%;
-    width: 100%;
-  }
-  .hackout{
-      position: relative;
-      top: 20%;
-      margin-left: 1rem;
-  }
-
-  .logo{
-    height: 50px;
-    margin-left: -25rem;
-    padding: 10px;
-  }
-  nav button{
-    display:inline-block;
-    background: transparent;
-    color:var(--color-light);
-    font-size: 1.8rem;
-    cursor: pointer;
-  }
-
-  nav button#close-btn {
-      display: none;
-      
-      position: absolute;
-      right: 2rem;
-      color: #e5193d;
-      border: none;
-
-  }
-  nav button#open-btn {
-    display: flex;
-    position: absolute;
-    right: 2rem;
-    color: #e5193d;
-    border: none;
-
-  }
-  .titleprizes{
-    width: 35%;
-    margin: 0;
-  }
-  .speakers-sec{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    
-
-  }
-  .speaker-card{
-    width: 90%;
-    padding: ;
-    margin-top: 1rem;
-  }
-  .speaker-img{
-     height: 100px;
-     width: 100px;
-  }
-  .speaker-info{
-    height: 100px;
-    width: 100px;
- }
-  .prizediv{
-    background: #232731;
-    padding: 15px;
-    width: 100%;
-    margin-left: -1rem;
-  }
-  .hide{
-    display: none;
-  }
-  
-
- 
-  .footer-icon {
-      width: 30px;
-      height: 3vh;
-      padding-left: .5rem;
-    }
-    .footer-icon2 {
-      width: 30px;
-      height: 3vh;
-      padding-left: .5rem;
-      margin-left: 1rem;
-    margin-right: -1rem;
-    }
-  .socials{
-      margin-left: 1rem;
-  }
-  .info{
-      width: 96%;
-      margin-left: 0rem;
-      padding-left: 0rem;
-      padding-left: 1.5rem;
-      
-              line-height: 5rem;
-      margin-top: 1rem;
-  }
-  .coc{
-      font-size: 20px;
-      margin-left: 0rem;
-      font-weight: 700;
-  }
-  .ss{
-      padding-left: 0rem;
-      font-size: 24px;
-      font-weight: 700;
-  }
-  .copy{
-      font-size: 20px;
-      font-weight: 700;
-  }
-  .socials2{
-      margin-left: 2.5rem;
-      padding-left: 0rem;
-  }
-  .socials{
-      margin-top: -1rem;
-  }
-  .title{
-      font-size: 42px;
-      width: 49%;
-  }
-  .colored-text{
-      line-height: 2rem;
-      font-size: 22px;
-      margin-top: 0rem;
-  }
-  .social-logos{
-       margin-right: 1rem;
-  }
-  body{
-      overflow-x: hidden;
-  }
-  .hack{
-    margin-top: 2rem;
-  }
-  .ss {
-    padding-left: 1rem;
-    font-size: 36.4px;
-    font-weight: 700;
-    padding: 0rem;
-    padding-bottom: .77rem;
-    margin-left: 0rem;
-    padding-left: 1rem;
-}
 }

@@ -109,9 +109,6 @@ flex-direction: column;
         .title{
             width: 30%;
         }
-        .faqu{
-          margin-top: 2rem;
-        }
        
     }
 
@@ -147,9 +144,6 @@ flex-direction: column;
         
         width: 100%;
     }
-    .faqu{
-      margin-top: 2rem;
-    }
 
     
   
@@ -173,9 +167,6 @@ flex-direction: column;
     .hack{
         
         margin-top: -14rem;
-    }
-    .faqu{
-      margin-top: 4rem;
     }
     .menu li {
       display: none;

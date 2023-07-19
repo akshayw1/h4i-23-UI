@@ -11,13 +11,32 @@ body {
   color: #e5193d;
 
 }
+.faqu{
+  
+}
+.social-logos{
+  margin-top: 4rem;
+}
 
 .container {
   width: 80%;
-  height: 100vh;
+  height: 100%  ;
   background-color: #232731;
   float: right;
   font-family: "Gudea", sans-serif;
+}
+::-webkit-scrollbar{
+  height: .5rem;
+  width: .4rem;
+}
+
+::-webkit-scrollbar-track{
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #fed330;
+  border-radius: 5rem;
 }
 
 .menu {
@@ -48,7 +67,6 @@ li{
 
 .logo {
   display: flex;
-  padding: 10px;
   width: 65.605px;
 height: 88.658px;
 }
@@ -67,7 +85,6 @@ nav {
   background-color: #232731;
   margin-left: -10rem;
   padding: 1.5rem;
-  height: 65vh;
 }
 .active {
   border-bottom: 1px solid rgb(255, 255, 255);
@@ -76,18 +93,22 @@ nav {
 
 h2 {
   font-family: poppins;
-  width: fit-content;
+  font-size: 3rem;
   font-weight: 500;
   margin-left: 3rem;
+  border-bottom: 2px solid #e5193d;
   border-width: 0.2rem;
   overflow: hidden;
+  width: 35%;
   color: white;
 }
-.titlehead{
-  font-size: 2.5rem;
-  border-bottom: 2.5px solid #e5193d; 
+.title {
+  width: 10%;
+ margin-bottom: 1rem;
+letter-spacing: 0.05em;
+margin-top: 4rem;}
 
-}
+
 p {
   color: white;
   font-family: "Gudea", sans-serif;
@@ -97,7 +118,6 @@ p {
   font-weight: 300;
   color: white;
   height: 50%;
-  margin-top: 3rem;
 }
 
 .bold {
@@ -133,7 +153,6 @@ p {
 
 .actions {
   display: flex;
-  margin-top: -1.4rem;
 }
 button {
   margin: 15px;
@@ -162,15 +181,9 @@ button {
 }
 
 .titleprizes{
-  font-size: 35px;
-  font-family: Gudea;
-  font-weight:700;
-  text-overflow: clip;
-  width: fit-content;
-  border-bottom: 2px solid #e5193d;
+  font-size: 20px;
+  width: 7%;
 }
-
-
 
 .speaker-img{
   background: #D9D9D9;
@@ -182,8 +195,6 @@ height: 150px;
   display: grid;
   grid-template-columns: repeat(3,1fr);
   width: 80%;
-  margin-left: 3rem;
-  margin-bottom: 2rem;
 }
 .speaker-info{
   color: white;
@@ -214,7 +225,7 @@ a { color: inherit;
   text-decoration: none;} 
 
 
-  @media screen and (min-width: 380px) and (max-width: 600px) {
+  @media screen and (max-width: 600px) {
     .menu {
       display: flex;
       flex-direction: column;
@@ -249,12 +260,11 @@ a { color: inherit;
     }
     .menu .logo{
       display: block;
-    
     }
 
     .container{
       width: 50%;
-      height: 102vh;
+      height: 110vh;
       background-color: #232731;
       justify-content: center;
       font-family: "Gudea", sans-serif;
@@ -271,14 +281,10 @@ a { color: inherit;
     }
 
     .title{
-      width:90% ;
-      font-size: 1.5rem;
+      width:28% ;
+      font-size: 35px;
       font-weight: 600;
       margin-left: 1rem;
-    }
-    .titlehead{
-      font-size: 1.5rem;
-      margin-left: 0;
     }
 
     .page1 p{
@@ -287,7 +293,7 @@ a { color: inherit;
       padding-top: 3rem;
       margin-left: 1rem;
       margin-bottom: -4rem;
-      margin-top: 0rem;
+
     }
 
     .btn{
@@ -297,13 +303,16 @@ a { color: inherit;
       align-items: center;
 
     }
+    
 
     .actions{
       display: flex;
       flex-direction: column;
     }
 
-    
+    .titleprizes{
+      width: 100%;
+    }
     .social-logos{
       padding: 0rem;
     }
@@ -349,7 +358,7 @@ a { color: inherit;
 
     }
     .titleprizes{
-      width:fit-content;
+      width: 35%;
       margin: 0;
     }
     .speakers-sec{
@@ -383,194 +392,21 @@ a { color: inherit;
     }
     
 
-    .social-logos{
-      display:  ;
-    }
+    .socials {
+      margin-right:0rem;
+      margin-top: -2rem;
+      
+  }
+  .footer-icon{
+    padding-left: 0.5rem;
+  }
+  .social-logos{
+    margin-right: 2rem;
+  }
     
    
   }
     
   
-
-
-
-
-
-  @media screen and (min-width: 100px) and (max-width: 379px) {
-    .menu {
-      display: flex;
-      flex-direction: column;
-
-    }
-    .menu a:hover{
-      color: #232731;
-    
-    }
-    .menu li {
-      display: none;
-      flex-direction: column;
-      position: absolute;
-      background: #e5193d;
-      margin-top: 30rem;
-      right: 2rem;
-      width: 50%;
-      box-shadow: -4rem 6rem 10rem rgba(0, 0, 0, 0.9) ;
-      padding-bottom: 1rem;
-      border-radius: 10px;
-      
-    }
-    .menu li a{
-      box-shadow: -4rem 6rem 10rem rgba(0, 0, 0, 0.6) ;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    
-    a:hover{
-      color:#232731;
-    }
-    .menu .logo{
-      display: block;
-    
-    }
-
-    .container{
-      width: 50%;
-      height: 107vh;
-      background-color: #232731;
-      justify-content: center;
-      font-family: "Gudea", sans-serif;
-      
-    }
-
-    .page1{
-      height: 80vh;
-    }
-    
-    .pagep{
-      height: 80vh;
-
-    }
-
-    .title{
-      width:90% ;
-      font-size: 1.5rem;
-      font-weight: 600;
-      margin-left: 1rem;
-    }
-    .titlehead{
-      font-size: 1.5rem;
-      margin-left: 0;
-    }
-
-    .page1 p{
-      font-size: 20px;
-      width: 80%;
-      padding-top: 3rem;
-      margin-left: 1rem;
-      margin-bottom: -4rem;
-      margin-top: -1rem;
-    }
-
-    .btn{
-      font-size: 1rem;
-      height: 25px;
-      margin-left: 1rem;
-      align-items: center;
-
-    }
-
-    .actions{
-      display: flex;
-      flex-direction: column;
-    }
-
-    
-    .social-logos{
-      padding: 0rem;
-    }
-    .icon {
-      width: 25px;
-      height: 25px;
-      padding: 10px;
-    }
-
-    .icon img{
-      height: 100%;
-      width: 100%;
-    }
-
-    .logo{
-      height: 50px;
-      margin-left: -25rem;
-      padding: 10px;
-    }
-    nav button{
-      display:inline-block;
-      background: transparent;
-      color:var(--color-light);
-      font-size: 1.8rem;
-      cursor: pointer;
-    }
-
-    nav button#close-btn {
-        display: none;
-        
-        position: absolute;
-        right: 2rem;
-        color: #e5193d;
-        border: none;
-
-    }
-    nav button#open-btn {
-      display: flex;
-      position: absolute;
-      right: 2rem;
-      color: #e5193d;
-      border: none;
-
-    }
-    .titleprizes{
-      width:fit-content;
-      margin: 0;
-    }
-    .speakers-sec{
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      
-
-    }
-    .speaker-card{
-      width: 90%;
-      padding: ;
-      margin-top: 1rem;
-    }
-    .speaker-img{
-       height: 100px;
-       width: 100px;
-    }
-    .speaker-info{
-      height: 100px;
-      width: 100px;
-   }
-    .prizediv{
-      background: #232731;
-      padding: 15px;
-      width: 100%;
-      margin-left: -1rem;
-    }
-    .hide{
-      display: none;
-    }
-    
-
-    .social-logos{
-      display:  ;
-    }
-    
-   
-  }
-      
 
 
