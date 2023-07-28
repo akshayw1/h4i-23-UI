@@ -208,7 +208,7 @@ button {
 }
 .info{
     width:60%;
-    margin-top: 4rem;
+    margin-top: 2rem;
     
 }
 
@@ -296,9 +296,6 @@ height: 150px;
 nav button{
   display: none;
 }
-.hack{
-  margin-top: -3rem;
-}
 
 .page1 .colored-text{
   color: white;
@@ -309,6 +306,13 @@ nav button{
 
 a { color: inherit;
   text-decoration: none;} 
+.socials{
+  margin-top: -1rem;
+}
+.footer-icon2{
+  width: 28px;
+  height: 3vh;
+}
 
 
   @media screen and (min-width: 381px) and (max-width: 600px) {
