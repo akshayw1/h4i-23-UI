@@ -114,7 +114,19 @@ p {
 .colored-text {
   color: #e5193d;
 }
+.faq-content{
+  margin-left: 3rem;
+  margin: 1rem;
+  font-size: 1rem;
+  color: white;
+}
 
+.speaker-fit-content{
+  height: fit-content;
+}
+.faq-fit-content{
+  height: fit-content;
+}
 .btn {
   height: 69px;
   margin-left: 3rem;
@@ -240,7 +252,17 @@ a { color: inherit;
       flex-direction: column;
 
     }
-
+    .faq-body{
+      margin: 0;
+      margin-bottom: 10px;
+      font-size: 10px;
+    }
+    .faq-content{
+      position: relative;
+      font-size: 1rem;
+      color: white;
+      margin-left: 1rem;
+    }
     .container {
       width: 80%;
       height: 100vh;
@@ -297,9 +319,7 @@ a { color: inherit;
       
     }
 
-    .page1{
-      height: 80vh;
-    }
+    
     
     .pagep{
       height: 80vh;
@@ -324,6 +344,14 @@ a { color: inherit;
       margin-left: 1rem;
       margin-bottom: -4rem;
       margin-top: 0rem;
+    }
+
+    .cont-fit-content{
+      height: fit-content;
+    }
+
+    .home{
+      height: 70vh;
     }
 
     .btn{
@@ -388,14 +416,14 @@ a { color: inherit;
       width:fit-content;
       margin: 0;
     }
-    .speakers-sec{
+    /* .speakers-sec{
       width: 100%;
       display: flex;
       flex-direction: column;
       
 
-    }
-    .speaker-card{
+    } */
+    /* .speaker-card{
       width: 90%;
       padding: ;
       margin-top: 1rem;
@@ -407,7 +435,7 @@ a { color: inherit;
     .speaker-info{
       height: 100px;
       width: 100px;
-   }
+   } */
     .prizediv{
       background: #232731;
       padding: 15px;
@@ -423,6 +451,34 @@ a { color: inherit;
       display:  ;
     }
 
+    .titleprizes{
+      width:fit-content;
+      margin: 0;
+      font-size: 34px;
+    }
+    .speakers-sec{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      
+
+    }
+    .speaker-card{
+      width: 90%;
+      padding: ;
+      margin-top: 1rem;
+    }
+    
+    .speaker-info{
+      height: 100px;
+      width: 100px;
+   }
+
+   .speaker-name {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-left: 5px;
+}
     .sponsors-img{
       display: flex;
       flex-direction: column;
@@ -438,6 +494,9 @@ a { color: inherit;
       height: 30px;
       width: 90%;
     }
+
+    
+    
     
    
   }
@@ -457,6 +516,13 @@ a { color: inherit;
     .menu a:hover{
       color: #232731;
     
+    }
+    .mobile-fit-content{
+      height:fit-content;
+    }
+
+    .contact-mobile{
+      height:100vh;
     }
     /* .container2{
       width: 80%;
@@ -510,9 +576,7 @@ a { color: inherit;
       
     }
 
-    /* .page1{
-      height: 80vh;
-    } */
+   
     
     .pagep{
       height: 80vh;
@@ -658,7 +722,7 @@ a { color: inherit;
      background: aqua;
      height: 100vh;
     }
-
+   
     .sponsors-img{
       display: flex;
       flex-direction: column;
